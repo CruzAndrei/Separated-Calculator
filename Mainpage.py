@@ -25,7 +25,7 @@ while True:
         result = operation[option](first_number,second_number)
         print("\nThe result is : " + str(result))
 
-        if simple_calculator.retry():
+        if not simple_calculator.retry():
             break
     else:
         print("invalid input")
