@@ -1,4 +1,6 @@
 class Calculator():
+    def Operations(self):
+
 def calcu():
     try:
         basic_operation = input("Select operation to be executed: ")
