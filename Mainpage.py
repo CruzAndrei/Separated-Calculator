@@ -17,12 +17,12 @@ while True:
 
     if simple_calculator.operation_within(option):
         try:
-            num1, num2 = simple_calculator.number_entry()
+            first_number, second_number = simple_calculator.number_entry()
         except ValueError:
             print("Invalid Input")
             continue
 
-        result = operation[option,num1, num2]
+        result = operation[option](first_number,second_number)
         print("\nThe result is : " + str(result))
 
         if simple_calculator.retry():
