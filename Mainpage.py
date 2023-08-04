@@ -27,3 +27,5 @@ while True:
 
         if simple_calculator.retry():
             break
+    else:
+        print("invalid input")
