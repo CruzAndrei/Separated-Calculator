@@ -29,11 +29,10 @@ class Calcu():
             print("\n\t\t\t\t       THANKS YOU!")
             print("\n------------------------------------------------------------------------------------------------------------------")
 
-
+    def Addition(self,num1,num2):
     #ADD
-        if basic_operation == "+":
-            data_operation = first_num + second_num
-            print("The sum of your inputed number is ", data_operation)
+        return num1+num2
+
     #subtract
         elif basic_operation == "-":
             data_operation = first_num - second_num
