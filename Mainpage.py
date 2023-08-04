@@ -21,3 +21,6 @@ while True:
         except ValueError:
             print("Invalid Input")
             continue
+
+        result = operation[option][num1, num2]
+        print("\nThe result is : " + str(result))
