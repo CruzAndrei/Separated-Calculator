@@ -14,7 +14,8 @@ class Calcu():
     def operation_within(self,basic_operation):
         if basic_operation in ('+', "-", "*", "/"):
             return True
-
+        else:
+            return False
 
 
     #ADD
