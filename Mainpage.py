@@ -6,4 +6,5 @@ simple_calculator.Operations()
 
 operation = {
     "+": simple_calculator.Addition,    
+    "-": simple_calculator.Subtraction,
 }
