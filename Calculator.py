@@ -10,6 +10,13 @@ class Calcu():
     def operation_to_use(self):
         basic_operation = input("Select operation to be executed: ")
         return basic_operation
+
+    def operation_within(self,basic_operation):
+        if basic_operation in ('+', "-", "*", "/"):
+            return True
+
+
+
     #ADD
         if basic_operation == "+":
             data_operation = first_num + second_num
