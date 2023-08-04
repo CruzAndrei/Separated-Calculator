@@ -39,17 +39,14 @@ class Calcu():
     def multiply(self,num1,num2):
     #multiply
         return num1*num2
-
+    def divide(self,num1,num2):
     #divide
-        elif basic_operation == "/":
-                try:
-                    data_operation = first_num / second_num
-                    print("The quotient of your inputed number is ", data_operation)
-                except ZeroDivisionError as ERROR:
-                    print("Second number must not be zero")
-                    print("Invalid Equation")
-                    print("ERROR")
-                    print("Try again")
-                    return
-        else:
-            print("Invalid Operation")
+            try:
+                num1 / num2
+            except ZeroDivisionError as ERROR:
+                print("Second number must not be zero")
+                print("Invalid Equation")
+                print("ERROR")
+                print("Try again")
+                return        
+            return num1/num2
