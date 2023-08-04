@@ -18,9 +18,9 @@ class Calcu():
             return False
         
     def number_entry(self):
-        num1 = float(input("Enter your first number: "))
-        num2 = float(input("Enter your second number: "))
-        return num1, num2
+        first_number = float(input("Enter your first number: "))
+        second_number = float(input("Enter your second number: "))
+        return first_number, second_number
     
     def retry(self):
         yes_no = input("\nDo you wish to continue? (yes or no): ")
@@ -29,24 +29,24 @@ class Calcu():
             print("\n\t\t\t\t       THANKS YOU!")
             print("\n------------------------------------------------------------------------------------------------------------------")
 
-    def Addition(self,num1,num2):
+    def Addition(self,first_number,second_number):
     #ADD
-        return num1+num2
+        return first_number + second_number
 
-    def Subtraction(self,num1,num2):
+    def Subtraction(self,first_number,second_number):
     #subtract
-        return num1-num2
-    def Multiplication(self,num1,num2):
+        return first_number - second_number
+    def Multiplication(self,first_number,second_number):
     #multiply
-        return num1*num2
-    def Division(self,num1,num2):
+        return first_number * second_number
+    def Division(self,first_number,second_number):
     #divide
             try:
-                num1 / num2
+                first_number / second_number
             except ZeroDivisionError as ERROR:
                 print("Second number must not be zero")
                 print("Invalid Equation")
                 print("ERROR")
                 print("Try again")
                 return        
-            return num1/num2
+            return first_number / second_number
