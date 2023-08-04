@@ -24,3 +24,6 @@ while True:
 
         result = operation[option][num1, num2]
         print("\nThe result is : " + str(result))
+
+        if simple_calculator.retry():
+            break
