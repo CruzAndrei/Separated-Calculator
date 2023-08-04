@@ -21,6 +21,14 @@ class Calcu():
         num1 = float(input("Enter your first number: "))
         num2 = float(input("Enter your second number: "))
         return num1, num2
+    
+    def retry(self):
+        yes_no = input("\nDo you wish to continue? (yes or no): ")
+        print("\n------------------------------------------------------------------------------------------------------------------")
+        if yes_no == "no":
+            print("\n\t\t\t\t       THANKS YOU!")
+            print("\n------------------------------------------------------------------------------------------------------------------")
+
 
     #ADD
         if basic_operation == "+":
