@@ -36,10 +36,10 @@ class Calcu():
     def Subtraction(self,num1,num2):
     #subtract
         return num1-num2
+    def multiply(self,num1,num2):
     #multiply
-        elif basic_operation == "*":
-            data_operation = first_num * second_num
-            print("The product of your inputed number is ", data_operation)
+        return num1*num2
+
     #divide
         elif basic_operation == "/":
                 try:
