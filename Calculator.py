@@ -33,10 +33,9 @@ class Calcu():
     #ADD
         return num1+num2
 
+    def Subtraction(self,num1,num2):
     #subtract
-        elif basic_operation == "-":
-            data_operation = first_num - second_num
-            print("The difference of your inputed number is ", data_operation)
+        return num1-num2
     #multiply
         elif basic_operation == "*":
             data_operation = first_num * second_num
