@@ -1,5 +1,12 @@
 
 class Calcu():
+    def Operations(self):
+        print("Here are the basic math operation to be used:")
+        print("+ ADD")
+        print("- SUBTRACT")
+        print("* MULTIPLY")
+        print("/ DIVIDE")
+
     def calcu():
         try:
             basic_operation = input("Select operation to be executed: ")
@@ -35,25 +42,3 @@ class Calcu():
                     return
         else:
             print("Invalid Operation")
-
-    while True:
-    #basic math operations
-        print("Here are the basic math operation to be used:")
-        print("+ ADD")
-        print("- SUBTRACT")
-        print("* MULTIPLY")
-        print("/ DIVIDE")
-
-        start_up = input('\n\t\t\t\t\t Press 1 and enter to continue: ')
-        print("\n------------------------------------------------------------------------------------------------------------------")
-
-        if start_up == "1":
-            calcu()
-        else:
-            print("\n\t\t\t\t    Proceed")
-
-        yes_no = input("\nDo you wish to continue? (yes or no): ")
-        if yes_no == "no":
-            print("\n\t\t\t\t       THANKS YOU!")
-            print("\n------------------------------------------------------------------------------------------------------------------")
-        break        
