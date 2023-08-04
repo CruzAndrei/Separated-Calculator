@@ -9,6 +9,7 @@ class Calcu():
 
     def operation_to_use(self):
         basic_operation = input("Select operation to be executed: ")
+        return basic_operation
     #ADD
         if basic_operation == "+":
             data_operation = first_num + second_num
