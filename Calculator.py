@@ -16,7 +16,11 @@ class Calcu():
             return True
         else:
             return False
-
+        
+    def number_entry(self):
+        num1 = float(input("Enter your first number: "))
+        num2 = float(input("Enter your second number: "))
+        return num1, num2
 
     #ADD
         if basic_operation == "+":
