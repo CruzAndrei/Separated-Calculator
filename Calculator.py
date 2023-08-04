@@ -36,10 +36,10 @@ class Calcu():
     def Subtraction(self,num1,num2):
     #subtract
         return num1-num2
-    def multiply(self,num1,num2):
+    def Multiplication(self,num1,num2):
     #multiply
         return num1*num2
-    def divide(self,num1,num2):
+    def Division(self,num1,num2):
     #divide
             try:
                 num1 / num2
