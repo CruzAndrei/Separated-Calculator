@@ -17,7 +17,7 @@ while True:
 
     if simple_calculator.operation_within(option):
         try:
-            num1,num2 = simple_calculator.number_entry
+            num1, num2 = simple_calculator.number_entry
         except ValueError:
             print("Invalid Input")
             continue
