@@ -1,4 +1,4 @@
-class Calculator():
+class Calcu():
     def Operations(self):
         print("Here are the basic math operation to be used:")
         print("+ ADD")
