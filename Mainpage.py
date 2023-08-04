@@ -14,3 +14,10 @@ operation = {
 
 while True:
     option = simple_calculator.operation_to_use()
+
+    if simple_calculator.operation_within(option):
+        try:
+            num1, num2 = simple_calculator.number_entry
+        except ValueError:
+            print("Invalid Input")
+            continue
