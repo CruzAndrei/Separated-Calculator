@@ -9,5 +9,8 @@ operation = {
     "-": simple_calculator.Subtraction,
     "*": simple_calculator.Multiplication,
     "/": simple_calculator.Division
-    
+
 }
+
+while True:
+    option = simple_calculator.operation_to_use()
